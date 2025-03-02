@@ -25,3 +25,6 @@ models/*.h5
 # Others
 *.log
 *.sqlite
+
+# Ignore dataset folder
+dataset/
