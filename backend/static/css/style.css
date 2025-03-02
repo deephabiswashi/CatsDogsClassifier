@@ -1,0 +1,118 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container with 3D effect */
+  .container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    text-align: center;
+    transform: perspective(600px) rotateY(5deg);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  input[type="file"]:hover {
+    transform: scale(1.05);
+  }
+  
+  select {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  select:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #5ee7df, #b490ca);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  }
+  
+  /* Preview styles */
+  #preview-container {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  #preview {
+    max-width: 100%;
+    max-height: 200px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: perspective(600px) rotateY(-5deg);
+  }
+  
+  /* Result display */
+  #result {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
