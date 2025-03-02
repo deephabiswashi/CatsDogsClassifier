@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+env1/
+
+# Mac OS system files
+.DS_Store
+
+# Models / large files
+models/*.pkl
+models/*.h5
+
+# PyTest cache
+.cache/
+
+# Others
+*.log
+*.sqlite
